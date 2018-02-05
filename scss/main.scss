@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row:first-of-type{
+  padding: 10px 0 3px 0;
+  color: gray;
+}
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 0 15px 0;
+}
+
+a{
+  color: #666666;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #666666;
+}
+
+.row:nth-child(3){
+  p{
+    font-size: 1.5rem;
+  }
+}
